@@ -83,6 +83,10 @@
   .navbar_options__right button {
     display: none;
   }
+  .navbar_options__list {
+    display: none;
+  }
+
   .navbar_options__list2 {
     display: flex;
     justify-content: end;

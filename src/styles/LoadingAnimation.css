@@ -1,0 +1,26 @@
+.basic-styles {
+  transition: all ease-in-out 1s;
+  position: relative;
+}
+
+/* expand animation  */
+.expand-reveal {
+  opacity: 1;
+  scale: 1;
+}
+
+.expand-hide {
+  opacity: 0;
+  scale: 0;
+}
+
+/* up-motion animation */
+.up-reveal {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.up-hide {
+  opacity: 0;
+  transform: translateY(100px);
+}
