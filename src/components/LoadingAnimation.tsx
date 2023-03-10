@@ -24,3 +24,25 @@ export const ExpandOnLoading: React.FC<{ children: ReactNode }> = ({
     </div>
   );
 };
+
+export const UpMotionOnLoading: React.FC<{ children: ReactNode }> = ({
+  children,
+}) => {
+  const [compStatus, setCompStatus] = useState<boolean>(false);
+  const { ref, inView } = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      setCompStatus(true);
+    }
+  }, [inView]);
+
+  return (
+    <div
+      className={`basic-styles ${compStatus ? "up-reveal" : "up-hide"}`}
+      ref={ref}
+    >
+      {children}
+    </div>
+  );
+};

@@ -1,5 +1,6 @@
 .navbar {
   z-index: 5;
+  position: relative;
 }
 
 .navbar_options {

@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import "../styles/Navigation.css";
 import { ExpandOnLoading } from "./LoadingAnimation";
 
-const MenuOptions = () => (
+const MenuOptions: React.FC = () => (
   <>
     <li>Home</li>
     <li>Projects</li>
