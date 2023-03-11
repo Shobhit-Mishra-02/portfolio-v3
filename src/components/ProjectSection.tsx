@@ -29,7 +29,7 @@ export default () => {
     <div className="prject_section container-margin">
       <UpMotionOnLoading>
         <div className="project_section__heading">
-          <span>🚀 my works</span>
+          <span>🚀 My works</span>
           <br />
           Projects
         </div>

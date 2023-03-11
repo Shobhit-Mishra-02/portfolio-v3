@@ -1,8 +1,8 @@
-import React from "react";
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
 import AboutSection from "./components/AboutSection";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 import ProjectSection from "./components/ProjectSection";
+import SkillSection from "./components/SkillSection";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Header />
       <AboutSection />
       <ProjectSection />
+      <SkillSection />
     </div>
   );
 }
