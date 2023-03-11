@@ -1,0 +1,75 @@
+.about_section {
+  /* padding: 4rem 0rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  /* margin-top: 9.5rem;
+  margin-bottom: 6rem; */
+}
+
+.about_section__image img {
+  height: auto;
+  width: 100%;
+}
+
+.about_section__content span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #7b4ae2;
+}
+
+.about_section__content h2 {
+  padding: 1rem 0rem 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.about_section__lines p {
+  padding-bottom: 1rem;
+}
+
+.about_section__lines span {
+  padding-top: 2.1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive design  */
+
+/* sm devices  */
+@media (min-width: 640px) {
+  .about_section__image img {
+    max-width: 480px;
+  }
+}
+
+/* md devices  */
+@media (min-width: 768px) {
+}
+
+/* lg devices  */
+@media (min-width: 1024px) {
+  .about_section__content {
+    max-width: 480px;
+  }
+
+  .about_section {
+    justify-content: space-evenly;
+  }
+}
+
+/* xl devices  */
+@media (min-width: 1280px) {
+  .about_section__content {
+    max-width: 500px;
+  }
+}

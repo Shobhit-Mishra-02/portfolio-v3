@@ -1,14 +1,11 @@
 import { TfiDownload } from "react-icons/tfi";
 import "../styles/Header.css";
-import { FiGithub } from "react-icons/fi";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
 import { UpMotionOnLoading } from "./LoadingAnimation";
 
 export default () => {
   return (
     <UpMotionOnLoading>
-      <div className="header">
+      <div id="header" className="header-section">
         <div className="header_image__section">
           <img src="/Hero.png" alt="hero image" />
         </div>

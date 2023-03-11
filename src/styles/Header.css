@@ -1,4 +1,4 @@
-.header {
+.header-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 .header_content__section span {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 16px;
   color: #7b4ae2;
 }
@@ -90,7 +90,7 @@
 
 /* md devices  */
 @media (min-width: 768px) {
-  .header {
+  .header-section {
     flex-direction: row;
     gap: 1rem;
     margin: 4rem 0rem 0rem;
@@ -99,7 +99,7 @@
 
 /* lg devices  */
 @media (min-width: 1024px) {
-  .header {
+  .header-section {
     gap: 2rem;
   }
   .header_content__section {
@@ -123,7 +123,7 @@
 
 /* xl devices  */
 @media (min-width: 1280px) {
-  .header {
+  .header-section {
     justify-content: space-between;
     margin: 6rem 0rem 0rem;
   }

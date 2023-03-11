@@ -38,6 +38,10 @@ body {
   display: block;
 }
 
+.container-margin {
+  margin: 22rem 0rem 8rem;
+}
+
 button:focus {
   outline: 1px solid var(--primary-color);
   outline-offset: 1px;

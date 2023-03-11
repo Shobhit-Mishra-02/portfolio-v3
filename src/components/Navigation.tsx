@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import "../styles/Navigation.css";
-import { ExpandOnLoading } from "./LoadingAnimation";
+import { ExpandOnLoading, UpMotionOnLoading } from "./LoadingAnimation";
 
 const MenuOptions: React.FC = () => (
   <>
@@ -21,7 +21,7 @@ export default () => {
 
   return (
     <nav className="navbar">
-      <ExpandOnLoading>
+      <UpMotionOnLoading>
         <div className="navbar_options">
           <span className="navbar_options__left">
             <svg
@@ -67,7 +67,7 @@ export default () => {
             </div>
           </ul>
         </div>
-      </ExpandOnLoading>
+      </UpMotionOnLoading>
     </nav>
   );
 };
