@@ -1,0 +1,31 @@
+.footer_section {
+  width: 100%;
+  padding: 1.2rem 0rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 18rem;
+  background: rgba(123, 74, 226, 0.1);
+}
+
+.footer_section__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.footer_section__logo svg {
+  cursor: pointer;
+}
+
+.footer_section__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
