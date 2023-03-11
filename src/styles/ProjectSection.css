@@ -1,0 +1,143 @@
+.project_section__heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  padding-bottom: 2rem;
+}
+
+.project_section__heading span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #7b4ae2;
+}
+
+/* .project_section__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+} */
+
+.project_section__cards {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  align-items: center;
+  width: fit-content;
+}
+
+.project_section__window {
+  overflow-x: scroll;
+  padding: 1rem 0rem;
+}
+
+/* card design  */
+
+.project_card {
+  height: auto;
+  /* max-width: 360px; */
+  width: 360px;
+  border: 1px solid hsla(259, 72%, 59%, 0.5);
+  border-radius: 8px;
+  padding: 1rem 0.9rem;
+}
+
+/* .project_card:hover {
+  background: rgba(123, 74, 226, 0.1);
+} */
+
+.project_card__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.project_card__para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 2.5rem;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.project_card__tags {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project_card__online,
+.project_card__github {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.project_card__online {
+  color: #4ae290;
+}
+
+.project_card__online:hover {
+  background-color: hsla(148, 72%, 59%, 0.1);
+}
+
+.project_card__github {
+  color: #7b4ae2;
+}
+
+.project_card__github:hover {
+  background-color: rgba(123, 74, 226, 0.1);
+}
+
+.project_card__image img {
+  height: auto;
+  width: 100%;
+}
+
+/* Responsive design  */
+
+/* sm devices  */
+@media (min-width: 640px) {
+}
+
+/* md devices  */
+@media (min-width: 768px) {
+  .project_section__window {
+    overflow-x: unset;
+    width: 100%;
+  }
+  .project_section__cards {
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+/* lg devices  */
+@media (min-width: 1024px) {
+}
+
+/* xl devices  */
+@media (min-width: 1280px) {
+}
+
+/* 2xl devices */
+@media (min-width: 1536px) {
+}

@@ -48,7 +48,7 @@
 /* sm devices  */
 @media (min-width: 640px) {
   .about_section__image img {
-    max-width: 480px;
+    max-width: 380px;
   }
 }
 
