@@ -35,6 +35,11 @@
   padding: 1rem 0rem;
 }
 
+.project_section__window:focus {
+  outline: 1px solid var(--primary-color);
+  outline-offset: 1px;
+}
+
 /* card design  */
 
 .project_card {

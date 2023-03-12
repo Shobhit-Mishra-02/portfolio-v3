@@ -28,7 +28,7 @@ export default () => {
   return (
     <div className="prject_section container-margin">
       <UpMotionOnLoading>
-        <div className="project_section__heading">
+        <div id="projects" className="project_section__heading">
           <span>🚀 My works</span>
           <br />
           Projects

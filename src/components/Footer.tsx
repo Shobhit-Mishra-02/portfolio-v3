@@ -2,7 +2,7 @@ import "../styles/Footer.css";
 
 export default () => {
   return (
-    <div className="footer_section default-font">
+    <div id="footer" className="footer_section default-font">
       <div className="footer_section__logo">
         <svg
           width="34"

@@ -70,6 +70,11 @@
   padding: 0.2rem;
 }
 
+.testimonial_window:focus {
+  outline: 1px solid var(--primary-color);
+  outline-offset: 1px;
+}
+
 .testimonial_section__cards {
   display: flex;
   justify-content: start;

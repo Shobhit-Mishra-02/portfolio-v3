@@ -37,6 +37,11 @@
   width: 700px;
 }
 
+.slider__window:focus {
+  outline: 1px solid var(--primary-color);
+  outline-offset: 1px;
+}
+
 .slider__container {
   height: auto;
   width: fit-content;
