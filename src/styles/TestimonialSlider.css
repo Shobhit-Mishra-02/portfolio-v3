@@ -1,0 +1,94 @@
+/* while slider  */
+.slider {
+  height: auto;
+  width: fit-content;
+  margin: auto;
+}
+
+/* slider buttons  */
+.slider__buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+
+.slider_btn__right,
+.slider_btn__left {
+  background-color: transparent;
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  border-radius: 6px;
+  padding: 12px 14px;
+  color: rgba(123, 74, 226, 0.5);
+  cursor: pointer;
+}
+
+.slider_btn__left svg,
+.slider_btn__right svg {
+  height: auto;
+  width: 24px;
+}
+
+/* slider items  */
+.slider__window {
+  /* border: 1px solid yellow; */
+  overflow-x: hidden;
+  width: 700px;
+}
+
+.slider__container {
+  height: auto;
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* gap: 0.5rem; */
+  flex-direction: row;
+  transition: all ease-in-out 0.6s;
+}
+
+.slider__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 700px;
+  /* border: 1px solid white; */
+}
+
+/* Responsive design  */
+
+/* sm devices  */
+@media (min-width: 640px) {
+}
+
+/* md devices  */
+@media (min-width: 768px) {
+}
+
+/* lg devices  */
+@media (min-width: 1024px) {
+  .slider__item,
+  .slider__window {
+    width: 750px;
+  }
+}
+
+/* xl devices  */
+@media (min-width: 1280px) {
+  .slider__item,
+  .slider__window {
+    width: 1040px;
+  }
+
+  .slider__item {
+    gap: 0.6rem;
+  }
+}
+
+/* 2xl devices */
+@media (min-width: 1536px) {
+}
