@@ -10,7 +10,7 @@ export default () => {
             <img src="/ProfilePic.png" alt="profile pic" />
           </div>
           <div className="about_section__content">
-            <span>😎 About me</span>
+            <span className="emoji-text">😎 About me</span>
             <h2>Exploring the world of programming</h2>
             <div className="about_section__lines">
               <p>

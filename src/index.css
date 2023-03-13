@@ -46,6 +46,14 @@ a {
   margin: 22rem 0rem 8rem;
 }
 
+.emoji-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7b4ae2;
+}
+
 button:focus {
   outline: 1px solid var(--primary-color);
   outline-offset: 1px;
@@ -119,6 +127,9 @@ button:focus {
 @media (min-width: 640px) {
   .container {
     padding: 0px 24px;
+  }
+  .emoji-text {
+    font-size: 20px;
   }
 }
 

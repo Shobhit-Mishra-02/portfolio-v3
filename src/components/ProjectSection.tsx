@@ -29,7 +29,7 @@ export default () => {
     <div className="prject_section container-margin">
       <UpMotionOnLoading>
         <div id="projects" className="project_section__heading">
-          <span>🚀 My works</span>
+          <span className="emoji-text">🚀 My works</span>
           <br />
           Projects
         </div>

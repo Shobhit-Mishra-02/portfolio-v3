@@ -8,7 +8,7 @@ export default () => {
     <div className="contact_section container-margin">
       <ExpandOnLoading>
         <div className="contact_section__heading">
-          <span>📬 Contact</span>
+          <span className="emoji-text">📬 Contact</span>
           <h2>Contact me</h2>
         </div>
         <div className="contact_section__button">

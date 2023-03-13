@@ -169,7 +169,7 @@ export default () => {
     <div className="skill_section container-margin">
       <ExpandOnLoading>
         <div className="skill_section__heading">
-          <span>🧑‍💻 Skills · Experience</span>
+          <span className="emoji-text">🧑‍💻 Skills · Experience</span>
           <h2>Technologies and skills</h2>
         </div>
         <div className="skill_section__image">

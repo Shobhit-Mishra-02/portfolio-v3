@@ -1,12 +1,9 @@
 .about_section {
-  /* padding: 4rem 0rem; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
-  /* margin-top: 9.5rem;
-  margin-bottom: 6rem; */
 }
 
 .about_section__image img {
@@ -14,13 +11,13 @@
   width: 100%;
 }
 
-.about_section__content span {
+/* .about_section__content span {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   color: #7b4ae2;
-}
+} */
 
 .about_section__content h2 {
   padding: 1rem 0rem 1.1rem;

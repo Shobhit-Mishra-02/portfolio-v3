@@ -52,7 +52,7 @@ export default () => {
     <div className="testimonial_section container-margin">
       <UpMotionOnLoading>
         <div className="testimonial_section__heading">
-          <span>💬 Clients review</span>
+          <span className="emoji-text">💬 Clients review</span>
           <h2>Testimonials</h2>
         </div>
       </UpMotionOnLoading>

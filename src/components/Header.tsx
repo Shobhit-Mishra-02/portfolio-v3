@@ -10,7 +10,7 @@ export default () => {
           <img src="/Hero.png" alt="hero image" />
         </div>
         <div className="header_content__section">
-          <span>👋 Hello!!</span>
+          <span className="emoji-text">👋 Hello!!</span>
           <h2>Shobhit Mishra</h2>
           <p>Front-end developer · UI designer</p>
           <div>
